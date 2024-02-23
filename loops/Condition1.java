@@ -58,10 +58,10 @@ public class Condition1 {
 
         // do while loop
 
-        // do {
-        // System.out.println(i);
-        // i++;
-        // } while (i <= num) ;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= num);
 
         // find the larget of three input given by user
 
