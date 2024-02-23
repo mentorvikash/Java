@@ -72,6 +72,7 @@ public class Condition1 {
         int number2 = input.nextInt();
         int number3 = input.nextInt();
 
+        // the first way
         int max = number1;
         if (number2 > max) {
             max = number2;
@@ -79,7 +80,20 @@ public class Condition1 {
         if (number3 > max) {
             max = number3;
         }
-
         System.out.println("maximum of all are " + max);
+
+        // the second way
+        int max1 = 0;
+        if (number1 > number2) {
+            max1 = number1;
+        } else {
+            max1 = number2;
+
+        }
+        if (number3 > max) {
+            max1 = number3;
+        }
+        System.out.println("max1 of all are " + max1);
+
     }
 }
