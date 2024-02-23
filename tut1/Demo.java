@@ -1,3 +1,5 @@
+package tut1;
+
 import java.util.Scanner;
 
 public class Demo {
