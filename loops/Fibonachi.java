@@ -37,5 +37,18 @@ public class Fibonachi {
             testNumber = testNumber / 10;
         }
         System.out.println("the number 2 repeate times " + count);
+
+        // ============ reverse the number
+        int originalNumber = 777333;
+        int reverseNumber = 0;
+
+        while (originalNumber > 0) {
+            int reminder = originalNumber % 10;
+            reverseNumber = reverseNumber * 10 + reminder;
+            originalNumber = originalNumber / 10;
+        }
+        ;
+        System.out.println("revers value of given number is " + reverseNumber);
     }
+
 }
