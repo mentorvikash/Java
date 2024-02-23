@@ -95,5 +95,8 @@ public class Condition1 {
         }
         System.out.println("max1 of all are " + max1);
 
+        // by using math methord
+        int max2 = Math.max(number3, Math.max(number1, number2));
+        System.out.println("max2 of all are " + max2);
     }
 }
