@@ -60,6 +60,17 @@ public class Switch {
                 break;
         }
 
+        // Arrow syntex supported version >= 14
+        switch (dayNumber) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+        }
+
         // Find if weekend or not
         switch (dayNumber) {
             case 1:
@@ -75,15 +86,11 @@ public class Switch {
                 break;
         }
 
-        // switch (dayNumber) {
-        // case 1 -> "this is good one";
-        // case 2 -> "this is good second one";
-        // }
-
-        // switch (dayNumber) {
-        // case 1, 2, 3, 4, 5 -> System.out.println("Do your work its not weekend");
-        // case 6, 7 -> System.out.println("Let's enjoy it's weekend");
-        // }
+        // Arrow syntex supported version >= 14
+        switch (dayNumber) {
+            case 1, 2, 3, 4, 5 -> System.out.println("not a weekend");
+            case 6, 7 -> System.out.println("Weekend");
+        }
 
     }
 
