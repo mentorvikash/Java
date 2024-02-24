@@ -8,7 +8,7 @@ public class Condition1 {
 
         // if else statement
 
-        int n = 97;
+        // int n = 97;
 
         // if (n < 100) {
         // System.out.println("you are not elegible for party town");
