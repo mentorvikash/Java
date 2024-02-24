@@ -18,12 +18,10 @@ public class Calculator {
                 if (operator == '+') {
                     result = a + b;
                 }
-                ;
 
                 if (operator == '-') {
                     result = a - b;
                 }
-                ;
 
                 if (operator == '*') {
                     result = a * b;
